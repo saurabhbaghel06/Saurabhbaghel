@@ -2,81 +2,513 @@
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Saurabh Baghel Digital Service - Online Form Filling और Digital Services">
-<title>Saurabh Baghel Digital Service</title>
+
+<!-- SEO -->
+<title>Saurabh Baghel Digital Service | Online Form Filling & Digital Services</title>
+
+<meta name="description" content="Saurabh Baghel Digital Service - Online form filling, job forms, scholarship forms, government forms aur digital services ke liye simple aur convenient assistance.">
+
+<meta name="keywords" content="Saurabh Baghel Digital Service, online form filling, online form, job forms, recruitment forms, scholarship forms, government forms, digital services, online services">
+
+<meta name="author" content="Saurabh Baghel">
+
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://saurabhbhagel06.github.io/Saurabhbhagel/">
+
+<!-- Google / Search -->
+<meta name="googlebot" content="index, follow, max-image-preview:large">
+
+<!-- Open Graph / Social Sharing -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Saurabh Baghel Digital Service">
+<meta property="og:description" content="Online form filling, job forms, scholarship forms, government forms aur digital services ke liye assistance.">
+<meta property="og:url" content="https://saurabhbhagel06.github.io/Saurabhbhagel/">
+<meta property="og:site_name" content="Saurabh Baghel Digital Service">
+
+<!-- Theme -->
+<meta name="theme-color" content="#123c9c">
+
+<!-- Favicon using emoji -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💻%3C/text%3E%3C/svg%3E">
+
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,sans-serif;color:#172033;background:#f7f9fc;line-height:1.6}
-header{background:#123c9c;color:#fff;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
-.logo{font-size:22px;font-weight:800}.logo span{color:#ffd166}
-nav a{color:#fff;text-decoration:none;margin-left:20px;font-weight:600}
-.hero{padding:80px 7%;background:linear-gradient(135deg,#eaf1ff,#fff);display:flex;gap:40px;align-items:center}
-.hero-text{max-width:700px}.badge{display:inline-block;background:#dbeafe;color:#1d4ed8;padding:7px 13px;border-radius:30px;font-weight:bold;margin-bottom:15px}
-h1{font-size:clamp(38px,6vw,62px);line-height:1.1;color:#102a67;margin-bottom:18px}
-.hero p{font-size:19px;color:#52617a;margin-bottom:25px}
-.btn{display:inline-block;padding:13px 22px;border-radius:10px;text-decoration:none;font-weight:bold;margin:5px}
-.primary{background:#2563eb;color:#fff}.secondary{border:2px solid #2563eb;color:#2563eb}
-.hero-card{background:#fff;padding:28px;border-radius:20px;box-shadow:0 15px 45px #123c9c20;min-width:280px}
-.hero-card h3{color:#123c9c;margin-bottom:10px}.check{margin:10px 0}
-section{padding:65px 7%}.title{text-align:center;font-size:34px;color:#102a67;margin-bottom:10px}.sub{text-align:center;color:#64748b;margin-bottom:35px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;max-width:1100px;margin:auto}
-.card{background:#fff;padding:24px;border-radius:16px;border:1px solid #e7ebf2;box-shadow:0 8px 30px #17203312}
-.icon{font-size:34px}.card h3{color:#1e3a8a;margin:8px 0}.card p{color:#64748b}
-.about{background:#fff;text-align:center}.about p{max-width:850px;margin:auto;color:#59677e;font-size:17px}
-.contact{background:#102a67;color:#fff;text-align:center}.contact .title{color:#fff}.contact p{color:#dbeafe;margin-bottom:20px}
-footer{background:#091b43;color:#cbd5e1;text-align:center;padding:20px}
-@media(max-width:700px){nav{display:none}.hero{padding:55px 5%;flex-direction:column;align-items:flex-start}.hero-card{width:100%}section{padding:50px 5%}}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    color:#172033;
+    background:#f7f9fc;
+    line-height:1.6;
+}
+
+header{
+    background:#123c9c;
+    color:#fff;
+    padding:18px 7%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 12px rgba(0,0,0,.12);
+}
+
+.logo{
+    font-size:22px;
+    font-weight:800;
+}
+
+.logo span{
+    color:#ffd166;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#ffd166;
+}
+
+.hero{
+    padding:80px 7%;
+    background:linear-gradient(135deg,#eaf1ff,#fff);
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+
+.hero-text{
+    max-width:700px;
+}
+
+.badge{
+    display:inline-block;
+    background:#dbeafe;
+    color:#1d4ed8;
+    padding:7px 13px;
+    border-radius:30px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+h1{
+    font-size:clamp(38px,6vw,62px);
+    line-height:1.1;
+    color:#102a67;
+    margin-bottom:18px;
+}
+
+.hero p{
+    font-size:19px;
+    color:#52617a;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:13px 22px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    margin:5px;
+}
+
+.primary{
+    background:#2563eb;
+    color:#fff;
+}
+
+.primary:hover{
+    background:#1d4ed8;
+}
+
+.secondary{
+    border:2px solid #2563eb;
+    color:#2563eb;
+}
+
+.secondary:hover{
+    background:#2563eb;
+    color:#fff;
+}
+
+.hero-card{
+    background:#fff;
+    padding:28px;
+    border-radius:20px;
+    box-shadow:0 15px 45px rgba(18,60,156,.12);
+    min-width:280px;
+}
+
+.hero-card h2{
+    color:#123c9c;
+    margin-bottom:10px;
+    font-size:24px;
+}
+
+.check{
+    margin:10px 0;
+}
+
+section{
+    padding:65px 7%;
+}
+
+.title{
+    text-align:center;
+    font-size:34px;
+    color:#102a67;
+    margin-bottom:10px;
+}
+
+.sub{
+    text-align:center;
+    color:#64748b;
+    margin-bottom:35px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.card{
+    background:#fff;
+    padding:24px;
+    border-radius:16px;
+    border:1px solid #e7ebf2;
+    box-shadow:0 8px 30px rgba(23,32,51,.07);
+}
+
+.card:hover{
+    transform:translateY(-3px);
+    transition:.2s ease;
+    box-shadow:0 12px 35px rgba(23,32,51,.12);
+}
+
+.icon{
+    font-size:34px;
+}
+
+.card h3{
+    color:#1e3a8a;
+    margin:8px 0;
+}
+
+.card p{
+    color:#64748b;
+}
+
+.about{
+    background:#fff;
+    text-align:center;
+}
+
+.about p{
+    max-width:850px;
+    margin:auto;
+    color:#59677e;
+    font-size:17px;
+}
+
+.contact{
+    background:#102a67;
+    color:#fff;
+    text-align:center;
+}
+
+.contact .title{
+    color:#fff;
+}
+
+.contact p{
+    color:#dbeafe;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#091b43;
+    color:#cbd5e1;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:700px){
+
+    header{
+        padding:16px 5%;
+    }
+
+    .logo{
+        font-size:19px;
+    }
+
+    nav{
+        display:none;
+    }
+
+    .hero{
+        padding:55px 5%;
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .hero-card{
+        width:100%;
+        min-width:0;
+    }
+
+    section{
+        padding:50px 5%;
+    }
+
+    .title{
+        font-size:30px;
+    }
+
+    .hero p{
+        font-size:17px;
+    }
+}
 </style>
 </head>
+
 <body>
+
+<!-- Header -->
 <header>
-<div class="logo">Saurabh <span>Baghel</span></div>
-<nav><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+
+<div class="logo">
+Saurabh <span>Baghel</span>
+</div>
+
+<nav aria-label="Main Navigation">
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
 </header>
 
+
+<!-- Hero Section -->
+<main>
+
 <section class="hero" id="home">
+
 <div class="hero-text">
-<div class="badge">Online Form Filling & Digital Services</div>
-<h1>Saurabh Baghel Digital Service</h1>
-<p>Online forms aur digital services ke liye simple, convenient aur reliable assistance.</p>
-<a class="btn primary" href="#services">Our Services</a>
-<a class="btn secondary" href="#contact">Contact</a>
+
+<div class="badge">
+Online Form Filling & Digital Services
 </div>
+
+<h1>
+Saurabh Baghel Digital Service
+</h1>
+
+<p>
+Online forms aur digital services ke liye simple,
+convenient aur reliable assistance.
+</p>
+
+<a class="btn primary" href="#services">
+Our Services
+</a>
+
+<a class="btn secondary" href="#contact">
+Contact
+</a>
+
+</div>
+
+
 <div class="hero-card">
-<h3>Hamari Services</h3>
+
+<h2>
+Hamari Services
+</h2>
+
 <div class="check">✓ Online Form Filling</div>
 <div class="check">✓ Job & Recruitment Forms</div>
 <div class="check">✓ Scholarship Forms</div>
 <div class="check">✓ Government Forms</div>
 <div class="check">✓ Digital Document Services</div>
+
 </div>
+
 </section>
 
+
+<!-- Services -->
 <section id="services">
-<h2 class="title">Our Services</h2>
-<p class="sub">Aapke zaroori online aur digital kaam ek jagah.</p>
+
+<h2 class="title">
+Our Services
+</h2>
+
+<p class="sub">
+Aapke zaroori online aur digital kaam ek jagah.
+</p>
+
 <div class="grid">
-<div class="card"><div class="icon">📝</div><h3>Online Form Filling</h3><p>Online applications fill aur submit karne mein assistance.</p></div>
-<div class="card"><div class="icon">💼</div><h3>Job Forms</h3><p>Recruitment aur job application forms ke liye digital assistance.</p></div>
-<div class="card"><div class="icon">🎓</div><h3>Scholarship Forms</h3><p>Scholarship applications complete karne mein madad.</p></div>
-<div class="card"><div class="icon">🏛️</div><h3>Government Forms</h3><p>Available government schemes aur services ke online forms.</p></div>
-<div class="card"><div class="icon">📄</div><h3>Document Services</h3><p>Digital documents aur application-related basic services.</p></div>
-<div class="card"><div class="icon">💻</div><h3>Digital Assistance</h3><p>Online processes ko samajhne aur complete karne mein assistance.</p></div>
+
+
+<article class="card">
+
+<div class="icon">📝</div>
+
+<h3>
+Online Form Filling
+</h3>
+
+<p>
+Online applications fill aur submit karne mein assistance.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<div class="icon">💼</div>
+
+<h3>
+Job & Recruitment Forms
+</h3>
+
+<p>
+Recruitment aur job application forms ke liye digital assistance.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<div class="icon">🎓</div>
+
+<h3>
+Scholarship Forms
+</h3>
+
+<p>
+Scholarship applications complete karne mein madad.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<div class="icon">🏛️</div>
+
+<h3>
+Government Forms
+</h3>
+
+<p>
+Available government schemes aur services ke online forms.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<div class="icon">📄</div>
+
+<h3>
+Document Services
+</h3>
+
+<p>
+Digital documents aur application-related basic services.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<div class="icon">💻</div>
+
+<h3>
+Digital Assistance
+</h3>
+
+<p>
+Online processes ko samajhne aur complete karne mein assistance.
+</p>
+
+</article>
+
 </div>
+
 </section>
 
+
+<!-- About -->
 <section class="about" id="about">
-<h2 class="title">About Saurabh Baghel</h2>
-<p>Saurabh Baghel Digital Service ka goal online form filling aur digital services ko customers ke liye simple aur convenient banana hai.</p>
+
+<h2 class="title">
+About Saurabh Baghel Digital Service
+</h2>
+
+<p>
+Saurabh Baghel Digital Service ka goal online form filling
+aur digital services ko customers ke liye simple aur convenient
+banana hai. Yahan online applications, job forms, scholarship
+forms, government forms aur basic digital assistance se judi
+services ki information di jaati hai.
+</p>
+
 </section>
 
+
+<!-- Contact -->
 <section class="contact" id="contact">
-<h2 class="title">Contact Us</h2>
-<p>Digital service ki jankari ke liye Saurabh Baghel Digital Service se contact karein.</p>
-<p>📞 Mobile number aur address baad mein yahan add kiya ja sakta hai.</p>
+
+<h2 class="title">
+Contact Us
+</h2>
+
+<p>
+Digital service ki jankari ke liye Saurabh Baghel Digital Service
+se contact karein.
+</p>
+
 </section>
 
-<footer>© 2026 Saurabh Baghel Digital Service. All rights reserved.</footer>
+</main>
+
+
+<!-- Footer -->
+<footer>
+
+© 2026 Saurabh Baghel Digital Service.
+All rights reserved.
+
+</footer>
+
 </body>
 </html>
